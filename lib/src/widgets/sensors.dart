@@ -86,7 +86,7 @@ class SensorListener extends StatefulWidget {
 
 class _SensorListenerState extends State<SensorListener> {
   double x = 0, y = 0;
-  AccelerometerEvent accelEvent = AccelerometerEvent(0, 0, 0);
+  AccelerometerEvent accelEvent = AccelerometerEvent(0, 0, 0, DateTime.now());
   late StreamSubscription<AccelerometerEvent> accelSubscription;
   late Timer stepTimer;
 
