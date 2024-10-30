@@ -10,7 +10,11 @@ dependencies:
   flutter:
     sdk: flutter
   xl: any
-  # spectrum: 0.2.1+1
+  spectrum: 0.2.1+1
+
+
+dependency_overrides:
+  sensors_plus: ^6.1.0
 
 dev_dependencies:
   foil:
