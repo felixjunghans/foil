@@ -16,6 +16,9 @@ dependencies:
     sdk: flutter
   # spectrum: ^0.2.1+1
   sensors_plus: ^6.1.0
-  spectrum: ^0.2.1+1
+  spectrum:
+    git:
+      url: https://github.com/felixjunghans/spectrum.git
+      ref: 81b77bdc745febe16a1c1f906a7e2e84fa93397c
 
 flutter: null
