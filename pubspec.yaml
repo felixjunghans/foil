@@ -19,6 +19,6 @@ dependencies:
   spectrum:
     git:
       url: https://github.com/felixjunghans/spectrum.git
-      ref: 81b77bdc745febe16a1c1f906a7e2e84fa93397c
+      ref: 6ccc9a1acf4647679f1273aabb1cb8b076c17e56
 
 flutter: null
